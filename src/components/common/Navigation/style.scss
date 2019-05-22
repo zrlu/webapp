@@ -1,0 +1,38 @@
+.Navigation {
+  background: black;
+  display: flex;
+  align-items: center;
+
+  &-title-container {
+    display: flex;
+    padding: 16px 32px 16px 32px;
+  }
+
+  &-site-icon {
+
+  }
+
+  &-site-title {
+    font-size: large;
+    font-weight: bold;
+    line-height: 32px;
+    color: white;
+    cursor: pointer;
+  }
+
+  &-entry-container {
+    display: flex;
+  }
+
+  &-entry {
+    padding: 16px 8px 16px 8px;
+    font-size: 16px;
+    line-height: 32px;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+      color: silver;
+    }
+  }
+}

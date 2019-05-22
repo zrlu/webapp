@@ -1,4 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Use npm in China
+$ npm config set registry http://r.cnpmjs.org
+$ npm install **
+
+## kill task in Windows cygwin
+$ netstat -a -b -o|grep 3000
+$ taskkill /F /PID 7936
 
 ## Available Scripts
 
