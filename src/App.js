@@ -1,19 +1,16 @@
 import React from 'react';
 import {Route} from 'react-router-dom'
-import Navigation from "./components/common/Navigation";
 import Home from "./components/pages/Home";
 import Login from "./components/pages/Login";
+import Signup from "./components/pages/Signup";
 
 function App() {
     return (
         <div className="App">
-            <header>
-                <Navigation/>
-            </header>
-
             <main>
                 <Route exact path="/" component={Home}/>
                 <Route exact path="/login" component={Login}/>
+                <Route exact path="/signup" component={Signup}/>
             </main>
         </div>
     );

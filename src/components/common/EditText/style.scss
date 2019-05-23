@@ -1,0 +1,22 @@
+.EditText {
+
+    &-title {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 8px 0;
+    }
+
+    &-input {
+        padding: 8px 0;
+    }
+
+    &-input input{
+        // remove default style
+        border:none;
+        background-color:transparent;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+}
