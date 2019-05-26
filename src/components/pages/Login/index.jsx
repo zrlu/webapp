@@ -49,6 +49,7 @@ class Login extends React.Component {
                     <div>
                         Login
                     </div>
+
                     <EditText type="text" value={email} onChange={this.onEmailChange} name="Email"/>
                     <EditText type="password" value={password} onChange={this.onPasswordChange} name="Password"/>
                     <Button onClick={() => {
