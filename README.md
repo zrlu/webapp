@@ -6,6 +6,7 @@ Assume API runs on localhost port 3001, to change port, please change "proxy" li
 
 Create a action function like the following:
 
+```
 export function testApi() {
   return {
     [RSAA]: {
@@ -15,6 +16,10 @@ export function testApi() {
     }
   }
 }
+```
+
+Where [REQUEST, RECEIVE, FAILURE] is action type defined to be captured in the reducer. In order, these action types (REQUEST, RECEIVE, FAILURE) are dispatched when: before the request is sent, after successful response and after error response. This API call uses {apiMiddleware} from 'redux-api-middleware' package.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Use npm in China
