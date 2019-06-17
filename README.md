@@ -20,6 +20,10 @@ export function testApi() {
 
 Where [REQUEST, RECEIVE, FAILURE] is action type defined to be captured in the reducer. In order, these action types (REQUEST, RECEIVE, FAILURE) are dispatched when: before the request is sent, after successful response and after error response. This API call uses {apiMiddleware} from 'redux-api-middleware' package.
 
+More details please see [redux-api-middleware documentation](https://www.npmjs.com/package/redux-api-middleware).
+
+## Other stuff
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Use npm in China
