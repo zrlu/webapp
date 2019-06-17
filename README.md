@@ -1,3 +1,21 @@
+## React Redux with react router template, scss frontend
+
+Assume API runs on localhost port 3001, to change port, please change "proxy" line in package.json file.
+
+## API calls
+
+Create a action function like the following:
+
+export function testApi() {
+  return {
+    [RSAA]: {
+      endpoint: "/api/test",
+      method: 'GET',
+      types: [REQUEST, RECEIVE, FAILURE]
+    }
+  }
+}
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Use npm in China
 $ npm config set registry http://r.cnpmjs.org
